@@ -1,0 +1,27 @@
+{
+  "name": "pancakeswap-prediction-bot",
+  "version": "2.2.0",
+  "description": "This bot wins almost every 5 minute BNB-USD option on PancakeSwap",
+  "author": "CodeTech-International",
+  "license": "MIT",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.7.1",
+    "micro-bot": "^2.5.3",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.20",
+    "telegraf": "^4.9.2",
+    "web3": "^1.8.0"
+  }
+}
